@@ -108,13 +108,9 @@ const SceneViewer = ({ isRotating = true }: SceneViewerProps) => {
       className="w-full h-full bg-black"
       style={{ minHeight: "500px" }}
     >
-      <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
+      <h1 className="font-extrabold tracking-tight lg:text-5xl absolute top-[375px] left-[165px] w-[251.9px] h-[77px] text-[89.5px] text-[#96e031] text-left font-sans">
         Header 1
       </h1>
-      <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
-        Header 1
-      </h1>
-      <div className="text-lg font-semibold">Large</div>
     </div>
   );
 };
